@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sun-web-app PUBLIC "-//Sun Microsystems, Inc.//DTD GlassFish Application Server 3.0 Servlet 3.0//EN" "http://www.sun.com/software/appserver/dtds/sun-web-app_3_0-0.dtd">
+<sun-web-app error-url="">
+  <resource-ref>
+    <res-ref-name>jdbc/kunden</res-ref-name>
+    <jndi-name>jdbc/kunden</jndi-name>
+  </resource-ref>
+  <resource-env-ref>
+    <resource-env-ref-name>resource_env_ref1</resource-env-ref-name>
+  </resource-env-ref>
+  <class-loader delegate="true"/>
+  <jsp-config>
+    <property name="keepgenerated" value="true">
+      <description>Keep a copy of the generated servlet class' java code.</description>
+    </property>
+  </jsp-config>
+</sun-web-app>
