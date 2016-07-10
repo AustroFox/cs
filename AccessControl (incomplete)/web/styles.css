@@ -1,0 +1,75 @@
+h1 {
+    font-size: large;
+}
+
+.error {
+    color:red;
+}
+
+.okay {
+    color:green;
+}
+
+fieldset {
+    display: inline-block;
+}
+
+form ol{
+    margin: 0;
+    list-style: none;
+}
+
+form ol li{      
+    padding: 0;
+    clear: both;
+    margin: 0 0 5px 0;
+}
+
+label {
+    width: 150px;
+    float: left;
+}
+
+div#include{
+    margin-top: 20px;
+}
+
+div#navigation{
+    padding-bottom: 10px;
+}
+
+div#navigation ul{
+    padding-left: 0px;
+}
+
+div#navigation li {
+    display: inline-table;
+    width: 150px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left:  0px;
+    padding: 10px 0 10px 0px;
+    background-color: #0099cc;
+    border-radius: 5px;
+}
+
+div#navigation a {
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div#navigation a:hover {
+    text-transform: uppercase;
+}
+
+div#sessioninfo {
+    font-size: small;
+    color: #0066cc;
+    background-color: #eeeeee;
+    margin-top: 40px;
+    border-width: 1px;
+    border-style: solid;
+    display: table;
+}

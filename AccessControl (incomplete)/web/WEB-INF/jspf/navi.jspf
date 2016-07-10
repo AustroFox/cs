@@ -1,0 +1,10 @@
+<!-- Gemeinsam verwendete Navigation -->
+<div id="navigation">
+    <ul>
+        <% String pfad = request.getContextPath();%>
+        <li><a href="<%= pfad%>/index.jsp">Home</a></li>
+        <li><a href="<%= pfad%>/user/index.jsp">Intern</a></li>
+        <li><a href="<%= pfad%>/admin/index.jsp">Admin</a></li>
+        <li><a href="<%= pfad%>/logout.jsp">Logout</a></li>
+    </ul>
+</div>
